@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengjing Yang's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">my@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="MENGJING YANG">MENGJING YANG</h1>
+                </div>
+                <h2 class="subtitle">DATA SCIENTIST <span class="accent">|</span> EPIDEMIOLOGIST <span class="accent">|</span> ANALYST</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:mengjing.yang@yale.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Mengjing Yang is a data scientist with a strong background in epidemiology and microbial diseases, currently pursuing a Master of Public Health at Yale University. She has significant experience in data analysis, model development, and predictive analytics, demonstrated through her internships and research roles. Her work has led to impactful improvements in healthcare data handling and decision-making processes.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">mengjing@research:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: mengjing.yang@yale.edu</p>
+                                <p>Phone: (203) 821-1276</p>
+                                <p>Location: New Haven, CT</p>
+                                <p><span class="command">$ cat research_interests.txt</span></p>
+                                <div id="research-interests-container">
+                                    <div class="research-interest">
+                                        <p class="research-field">Epidemiology</p>
+                                        <p class="research-description">Focus on microbial diseases, predictive modeling, and health data analysis.</p>
+                                    </div>
+                                </div>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Master of Public Health</div>
+                            <div class="item-date">August 2023 - Present</div>
+                        </div>
+                        <div class="item-subtitle">Yale University</div>
+                        <div class="item-field">Epidemiology of Microbial Diseases</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Bachelor of Science</div>
+                            <div class="item-date">September 2019 - June 2020</div>
+                        </div>
+                        <div class="item-subtitle">Shanghai University of Medicine & Health Sciences</div>
+                        <div class="item-field">Nursing</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Data Scientist Intern</div>
+                            <div class="item-date">July 2024 – May 2025</div>
+                        </div>
+                        <div class="item-subtitle">Quest Diagnostics</div>
+                        <ul class="item-description">
+                            <li>Built an end-to-end data pipeline for diabetes in US, impacting 3.2 billion patients by Jan 2025.</li>
+                            <li>Developed a model selection algorithm in Python to enhance predictive performance, improving model AUC by 15%.</li>
+                            <li>Leveraged SQL to validate, cleanse, and normalize data, optimizing query execution time by 45%.</li>
+                            <li>Developed interactive dashboards and automated reports using AWS QuickSight, optimizing visualizations for user engagement.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python</span>
+                            <span class="technique-tag">NumPy</span>
+                            <span class="technique-tag">Pandas</span>
+                            <span class="technique-tag">Scikit-learn</span>
+                            <span class="technique-tag">XGBoost</span>
+                            <span class="technique-tag">SQL</span>
+                            <span class="technique-tag">Snowflake</span>
+                            <span class="technique-tag">Azure DevOps</span>
+                            <span class="technique-tag">AWS QuickSight</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Graduate Researcher</div>
+                            <div class="item-date">May 2024 – August 2024</div>
+                        </div>
+                        <div class="item-subtitle">Yale Center for Outcomes Research & Evaluation (CORE)</div>
+                        <ul class="item-description">
+                            <li>Optimized patient risk prediction models using EHR and NCDR data, achieving an average AUC of 0.850.</li>
+                            <li>Worked in a cross-functional team to present model insights for decision-making in postoperative complications prevention.</li>
+                            <li>Managed large datasets for epidemiology surveillance research, producing Excel reports for analysis.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">R</span>
+                            <span class="technique-tag">Random Forest</span>
+                            <span class="technique-tag">Gradient Boosting Machine</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <h3 class="project-title">Yale Public Health Modeling Unit - Scientific Research</h3>
+                        <p class="project-description">Developed Survival Analysis and Bayesian Hierarchical Models to assess time-to-first RSV infection and refine risk estimates across diverse populations.</p>
+                        <div class="project-tech">
+                            <span>Survival Analysis</span>
+                            <span>Bayesian Hierarchical Models</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Generated insights for pharmaceutical stakeholders on vaccine impact and healthcare access disparities.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <h3 class="project-title">Bio Tech World - Start Up Consulting</h3>
+                        <p class="project-description">Conducted market analysis and formulated a database covering 695 publicly traded biotechnology companies in the USA.</p>
+                        <div class="project-tech">
+                            <span>Tableau</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Crafted in-depth marketing reports that bolster strategic initiatives with data-driven insights.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Publications</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="publications-container" id="publications-container">
+                    <div class="publication-item">
+                        <h3 class="publication-title">Single-cell transcriptome analysis</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">European Journal of Pharmacology</span>
+                            <span class="publication-year">2023</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3 class="publication-title">Quantitative proteomic analysis</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Proteomics and Systems Biology</span>
+                            <span class="publication-year">2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Deep Learning</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Biostatistics</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Epidemiology</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Statistic Modeling</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>NumPy</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Pandas</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Scikit-learn</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>XGBoost</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>Snowflake</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-microsoft"></i>
+                                <span>Azure DevOps</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS QuickSight</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>R</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Random Forest</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Gradient Boosting Machine</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Tableau</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:mengjing.yang@yale.edu" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>mengjing.yang@yale.edu</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Mengjing Yang | Data Scientist & Epidemiologist</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
